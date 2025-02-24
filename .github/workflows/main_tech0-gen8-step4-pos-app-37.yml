@@ -70,7 +70,7 @@ jobs:
         with:
           app-name: "tech0-gen8-step4-pos-app-37"
           slot-name: "Production"
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_970AD72775D74DD9A035A092064E975C }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9D4EDA5532F74019830ECDB525D3E85A }}
           package: .
         env:
           NODE_ENV: production
